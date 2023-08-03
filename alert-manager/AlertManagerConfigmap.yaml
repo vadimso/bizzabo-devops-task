@@ -22,14 +22,7 @@ data:
           repeat_interval: 1m
 
     receivers:
-    - name: alert-emailer
-      email_configs:
-      - to: demo@devopscube.com
-        send_resolved: false
-        from: from-email@email.com
-        smarthost: smtp.eample.com:25
-        require_tls: false
-    - name: slack_demo
+    - name: slack
       slack_configs:
       - api_url: https://hooks.slack.com/services/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
-        channel: '#devopscube-demo'
+        channel: '#devops-bizzabo-alerts'
