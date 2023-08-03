@@ -4,5 +4,5 @@
  
  2-define slack channel to receive the alerts
  
- 3- install each component (prometheus, alertmnager,grafana,hello-world-app ) as deployment on kubernetes via kubectl apply 
+ 3- install each component (prometheus, alertmnager,grafana,hello-world-app ) as deployment on kubernetes via kubectl apply (the service is a loadbalancer type in order to access from outside)
  
