@@ -8,3 +8,6 @@
  
  4- add in /etc/prometheus alerts file in following location (file exists in prometheus folder) /etc/prometheus/alert.rules.yml
  
+5 - create a datasource for prometheus in grafana (look for grafana-datasource-config.yaml file ) via kubectl
+
+6- set grafana dashboard for getting  non 200 ok from hello-wolrd app 
